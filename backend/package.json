@@ -1,0 +1,21 @@
+{
+  "name": "asap",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.12.2",
+    "create-vite": "latest",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.4"
+  }
+}
